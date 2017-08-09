@@ -1,0 +1,99 @@
+/* Survey page styles */
+
+.photo {
+  width: 100%;
+  padding: 10px;
+}
+
+.container {
+  text-align: center;
+}
+
+.newsletter,
+.survey {
+  text-align: left;
+}
+
+.newsletter legend {
+  font-size: 1.5rem;
+}
+
+span {
+  display: none;
+}
+
+form {
+  margin: 0 auto;
+  display: inline-block;
+  text-align: left;
+}
+
+fieldset {
+  display: inline-block;
+  border: none;
+  margin: 1.2rem;
+  font-size: 1rem;
+}
+
+legend {
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 10px 0;
+  color: #d24d57;
+}
+
+input[type="radio"] {
+  margin: .5rem;
+}
+
+input:focus, textarea:focus {
+  border: 5px solid #e7903c;
+}
+
+label {
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.label, .n_letter {
+  margin: 10px 0;
+}
+
+select {
+  margin-top: 1rem;
+  width: 70%;
+  height: 2rem;
+}
+
+#name, #email, #retype_email {
+  margin: 1.2rem 0 1.5rem 0;
+  height: 2.5rem;
+  width: 100%;
+}
+
+input[placeholder] {
+  font-style:italic;
+  font-size: .8rem;
+}
+
+textarea {
+  margin: 1.2rem 0 1.5rem 0;
+  height: 2.5rem;
+  width: 90%;
+}
+
+
+/* Styles for larger screens */
+
+
+@media screen and (min-width: 840px) {
+  .photo {
+    width: 40%;
+  }
+  
+  .card {
+    margin: 30px auto;
+    padding: 18px 35px 35px;
+  }
+}
